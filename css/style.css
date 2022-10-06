@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.cajaprincipal{
+    background-image: url(/assets/images/olivar_banner.jpg);
+    background-repeat: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenli>img{
+    max-width: 100px;
+}
+nav{
+    background-color: white;
+    padding-left: 0rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    list-style: none;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    color: olive;
+
+}
+.transparencia{
+    background-color: rgba(4, 4, 4, 0.338);
+    width: 700px;
+    color: white;
+    text-align: center;
+}
+.cajasecundaria__texto{
+    color: olive;
+}
+.cajasecundaria__texto--negrita{
+    font-weight: bold;
+}
+.imagenes>img{
+    width: 200px;
+    margin-left: 7rem;
+}
+.imagenes__borde{
+    border-radius: 50%;
+}
